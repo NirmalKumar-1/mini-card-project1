@@ -1,0 +1,38 @@
+@media (max-width: 405px){
+    .heading {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .extraFeatures {
+        justify-content: space-between;
+    }
+
+    .paraContainer {
+        font-size: .90rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    a {
+        font-size: .85rem;
+    }
+}
+
+@media (max-width: 320px){
+    .extraFeatures {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: .8rem;
+    }
+
+    .paraContainer {
+        font-size: .89rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cardContainer {
+        padding: .5rem;
+    }
+}
